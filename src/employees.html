@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../bootstrap/css/font-awesome-5.8.1.css">
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../../bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>UiBrains Dashboard</title>
+</head>
+<body>
+
+<nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+    <div class="container">
+        <a href="index.html" class="navbar-brand text-warning">
+            <i class="fa fa-snowflake"></i> UiBrains</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#uinavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="uinavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">
+                        <i class="fa fa-chart-bar text-muted"></i> Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a href="tasks.html" class="nav-link">
+                        <i class="fa fa-list text-muted"></i> Tasks</a>
+                </li>
+                <li class="nav-item">
+                    <a href="categories.html" class="nav-link">
+                        <i class="fa fa-sitemap text-muted"></i> Categories</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="employees.html" class="nav-link">
+                        <i class="fa fa-users text-muted"></i> Employees</a>
+                </li>
+            </ul>
+        </div>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link" data-toggle="dropdown">
+                    <i class="fa fa-sign-in-alt text-muted"> </i>Pranathi<i class="fa fa-caret-down"></i>
+                </a>
+                <div class="dropdown-menu">
+                    <a href="profile.html" class="dropdown-item">
+                        <i class="fa fa-user-circle"></i>Profile
+                    </a>
+                    <a href="settings.html" class="dropdown-item">
+                        <i class="fa fa-cog"></i>Settings
+                    </a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="login.html" class="nav-link">
+                    <i class="fa fa-sign-out-alt text-muted"></i>Sign Out
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!--catergories-->
+<section class="p-2 text-white bg-warning">
+    <div class="container">
+        <div class="row">
+            <div class="col animated slideInLeft">
+                <h1>
+                    <i class="fa fa-users"></i> Employess</h1>
+            </div>
+        </div>
+    </div>
+</section>
+<!--dashboard search-->
+<section class="p-3">
+    <div class="container">
+        <div class="row">
+            <div class="col md-6">
+
+            </div>
+            <div class="col md-6 animated slideInRight">
+                <form class="form-inline">
+                    <div class="form-group">
+                        <input type="search" value="search" size="40" class="form-control" placeholder="Employee Name">
+                    </div>
+                    <input type="submit" value="search" class="btn btn-teal">
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="p-3">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card animated rotateInUpRight">
+                    <div class="card-hearder bg-secondary text-white">
+                        <h2>Employee Details</h2>
+                    </div>
+                    <div class="card-body">
+                        <table class="table table-hover text-center">
+                            <thead class="text-uppercase bg-dark text-white">
+                            <tr>
+                                <td>S.No</td>
+                                <td>Employee</td>
+                                <td>Email</td>
+                                <td>Task Name</td>
+                                <td>Level</td>
+                                <td>Category</td>
+                                <td>Details</td>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Rajan</td>
+                                <td>rajan06@gmail.com</td>
+                                <td>Automation Emails</td>
+                                <td>Medium</td>
+                                <td>Development</td>
+                                <td>
+                                    <a href="#" class="btn btn-outline-warning btn-sm">Details <i class="fa fa-arrow-alt-circle-right"></i></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Rajan</td>
+                                <td>rajan06@gmail.com</td>
+                                <td>Automation Emails</td>
+                                <td>Medium</td>
+                                <td>Development</td>
+                                <td>
+                                    <a href="#" class="btn btn-outline-warning btn-sm">Details <i class="fa fa-arrow-alt-circle-right"></i></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Rajan</td>
+                                <td>rajan06@gmail.com</td>
+                                <td>Automation Emails</td>
+                                <td>Medium</td>
+                                <td>Development</td>
+                                <td>
+                                    <a href="#" class="btn btn-outline-warning btn-sm">Details <i class="fa fa-arrow-alt-circle-right"></i></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Rajan</td>
+                                <td>rajan06@gmail.com</td>
+                                <td>Automation Emails</td>
+                                <td>Medium</td>
+                                <td>Development</td>
+                                <td>
+                                    <a href="#" class="btn btn-outline-warning btn-sm">Details <i class="fa fa-arrow-alt-circle-right"></i></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Rajan</td>
+                                <td>rajan06@gmail.com</td>
+                                <td>Automation Emails</td>
+                                <td>Medium</td>
+                                <td>Development</td>
+                                <td>
+                                    <a href="#" class="btn btn-outline-warning btn-sm">Details <i class="fa fa-arrow-alt-circle-right"></i></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>Rajan</td>
+                                <td>rajan06@gmail.com</td>
+                                <td>Automation Emails</td>
+                                <td>Medium</td>
+                                <td>Development</td>
+                                <td>
+                                    <a href="#" class="btn btn-outline-warning btn-sm">Details <i class="fa fa-arrow-alt-circle-right"></i></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>Rajan</td>
+                                <td>rajan06@gmail.com</td>
+                                <td>Automation Emails</td>
+                                <td>Medium</td>
+                                <td>Development</td>
+                                <td>
+                                    <a href="#" class="btn btn-outline-warning btn-sm">Details <i class="fa fa-arrow-alt-circle-right"></i></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>Rajan</td>
+                                <td>rajan06@gmail.com</td>
+                                <td>Automation Emails</td>
+                                <td>Medium</td>
+                                <td>Development</td>
+                                <td>
+                                    <a href="#" class="btn btn-outline-warning btn-sm">Details <i class="fa fa-arrow-alt-circle-right"></i></a>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="p-3 bg-dark text-white text-center">
+    <h3>Copyrights &copy; 2019, UIBrains.com</h3>
+    <h6>All Rights Reserved <sup>&reg;</sup></h6>
+    <h6>Developed and Maintained by
+        <a class="text-warning" href="#">
+            <i class="fa fa-snowflake"></i>UIBrains.com
+        </a>
+    </h6>
+</footer>
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<!-- BODY ENDS -->
+<script src="../../bootstrap/js/jquery-3.3.1.min.js"></script>
+<script src="../../bootstrap/js/popper.min.js"></script>
+<script src="../../bootstrap/js/bootstrap.min.js"></script>
+<script src="../../bootstrap/js/mdb.min.js"></script>
+<script src="https://cdn.ckeditor.com/4.8.0/standard/ckeditor.js"></script>
+<script>
+    CKEDITOR.replace( 'editor1' );
+</script>
+</body>
+</html>
